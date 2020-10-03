@@ -1,9 +1,8 @@
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://i.imgur.com/eSXQmw5.jpg");
+   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://i.pinimg.com/originals/3b/8a/d2/3b8ad2c7b1be2caf24321c852103598a.jpg");
     overflow: hidden;
-    width: 1080px;
-    height: 1920px;
-    background-repeat: no-repeat;
+    width: 1920px;
+    height: 1080px;
 }
 
 @keyframes welcomeinmation {
