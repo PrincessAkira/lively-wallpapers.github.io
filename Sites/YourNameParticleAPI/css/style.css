@@ -1,0 +1,8 @@
+html,
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://i.imgur.com/JpYdD9Q.png");
+    overflow: hidden;
+}
+.header {
+    height: 100%;
+}
