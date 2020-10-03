@@ -6,7 +6,18 @@ body {
     background-repeat: no-repeat;
 }
 
+@keyframes welcomeinmation {
+    from {
+        top: -10%;
+    }
+    to {
+        top: 17%;
+    }
+
+}
+
 .Welcome {
+    animation: welcomeinmation 2.3s forwards;
     text-align: center;
     position: absolute;
     left: 50%;
@@ -19,6 +30,7 @@ body {
 }
 
 .Box {
+    animation: load_up 3s forwards;
     border-radius: 20px;
     border-color: white;
     border-style: solid;
@@ -34,11 +46,39 @@ body {
 }
 
 .column {
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    color: white;
+    font-size: 27px;
+    text-decoration: none;
+}
+
+.column:hover {
+    animation: zooms 0.1ms forwards;
+}
+
+@keyframes zooms {
+    from {
+        zoom: 100%;
+    }
+    to {
+        zoom: 103%;
+    }
+}
+
+@keyframes load_up {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 
 }
 
-.row {
-    display: flex;
+.bottomplace {
+    animation: load_up 2s forwards;
 }
 
 .bottombar {

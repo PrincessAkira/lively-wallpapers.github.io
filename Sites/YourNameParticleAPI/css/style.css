@@ -2,7 +2,78 @@ html,
 body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("https://i.imgur.com/JpYdD9Q.png");
     overflow: hidden;
+    background-repeat: no-repeat;
 }
 .header {
     height: 100%;
+}
+
+.infobox {
+    border-radius: 20px;
+    border-color: white;
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 94%;
+    top: 88%;
+    transform: translate(-50%, -50%);
+}
+
+.infotext {
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+
+.download {
+    text-align: center;
+    text-decoration: underline;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    top: 115%;
+    transform: translate(-50%, -50%);
+    color: white;
+
+}
+
+.backbox {
+    border-radius: 20px;
+    border-color: white;
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    left: 3%;
+    top: 5.3%;
+    transform: translate(-50%, -50%);
+
+}
+
+.backtext {
+    text-align: center;
+    text-decoration: underline;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
