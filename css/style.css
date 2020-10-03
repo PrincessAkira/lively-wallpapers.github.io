@@ -101,6 +101,24 @@ body {
 
 }
 
+.LivelyBox {
+    width: 120px;
+    height: 30px;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    font-family: Roboto, sans-serif;
+    color: white;
+    font-size: 22px;
+}
+.Lively {
+    font-family: Roboto, sans-serif;
+    color: white;
+    font-size: 22px;
+}
+
 
 @keyframes colorRotate {
     from {
