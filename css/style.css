@@ -1,3 +1,23 @@
+@media (prefers-color-scheme: dark) {
+    body {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://i.pinimg.com/originals/3b/8a/d2/3b8ad2c7b1be2caf24321c852103598a.jpg");
+        overflow: hidden !important;
+        width: 1920px !important;
+        height: 1080px !important;
+        border: none !important;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://i.pinimg.com/originals/3b/8a/d2/3b8ad2c7b1be2caf24321c852103598a.jpg");
+        overflow: hidden !important;
+        width: 1920px !important;
+        height: 1080px !important;
+        border: none !important;
+    }
+}
+
 body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://i.pinimg.com/originals/3b/8a/d2/3b8ad2c7b1be2caf24321c852103598a.jpg");
     overflow: hidden !important;
